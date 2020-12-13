@@ -66,14 +66,14 @@ In our implementation we want a batch effect to be corrected, the additionals ba
 Think to the group as a cell type, we will use those group to test the resulted low dimensional representation through a cluster analysis.
 
 ```{r}
-suppressPackageStartupMessages(
-  {library(SingleCellExperiment)
-library(splatter)
-library(irlba)
-library(Rtsne)
-library(ggplot2)
-library(mclust)
-library(NewWave)
+suppressPackageStartupMessages({
+  library(SingleCellExperiment)
+  library(splatter)
+  library(irlba)
+  library(Rtsne)
+  library(ggplot2)
+  library(mclust)
+  library(NewWave)
   })
 ```
 
